@@ -1,0 +1,213 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+section,article,header{
+    border: 1px solid black;
+    display: block;
+}
+header{
+    width: 100%;
+}
+/*para cetrar el body al texto*/
+body{
+    text-align: center;
+    color: #F9F2ED;
+   
+}
+.agrupar{
+    background: #171010;
+    width: 90%;
+    margin: 15px auto;
+    padding: 0px 0px;
+  
+    
+}
+                   
+.barranav{
+    background:  #2B2B2B;
+    /* background: #70834f; */
+    display: flex;
+    justify-content:space-around;
+    padding: 0px;
+    /* text-align: left; */
+
+}
+.letraPatagonia{
+  font-size: 24px;
+  font-weight: 100;
+  font-family: 'Rubik Moonrocks', cursive;
+}
+.anav{
+    background:#423F3E; 
+  
+  display: inline-block;
+  color: #F9F2ED;
+  text-decoration: none;
+  
+}
+.texto{
+    font-size: 16px;
+}
+.icono{
+    padding: 0px 40px;
+}
+.anav i:hover{
+    color: #86817d;
+}
+.login{
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+
+.barra:hover{
+    background: #5c5857;
+    color: #86817d;
+}
+div a i {
+    color: #F9F2ED;
+}
+div a i:hover{
+    color: #86817d;
+}
+.seccion{
+    margin:  20px;
+    width: 60%;
+    box-shadow: 5px 5px #86817d;;
+  
+  
+    float: left;
+}
+.columna{
+  
+   margin: 100px 30px;
+    width: 30%;
+    float: left;
+    
+}
+/*footer todo el estilo*/
+footer{
+    clear: both;
+    /* background: #534340; */
+    display: flex;
+    justify-content:flex-end;
+    background:  #2B2B2B;
+   
+}
+footer p{
+    align-self: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: auto;
+}
+footer img{
+    width:5%;
+    margin: 10px 20px;
+    box-shadow: 5px 5px #6b6565;
+    border-radius: 16px;
+}
+
+/*****************************/
+article{
+
+    background: #362222;
+    padding: 10px;
+
+
+}
+
+article p{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:100;
+}
+img{
+    width: 30%;
+    display: block;
+
+}
+
+
+
+/*  grid*/
+.col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+
+/*   ********segunda pagina******************  */
+.elegir_provincia{
+    text-align:center;
+}
+/*color 1 y dos para tabla */
+table {
+  border: 2px solid rgb(245, 243, 243);
+  border-radius: 10px;
+  
+}
+.color1{
+    background:#a39f9d ;
+    font-weight: 600;
+    color: #171010;
+}
+.color2{
+    background: #86817d; 
+    font-weight: 600;
+    color: #171010 ;
+}
+/* barra nav de header */
+@media(max-width: 845px) {
+  .barranav{
+     
+      flex-direction: column;
+  }
+  .anav{
+      /* display: column; */
+      margin: 5px 0px;
+      font-size: 15px;
+  }
+  .col-1{
+    width: 100%;
+  }
+  .col-4,.col-6{
+    width: 100%;
+  }
+  .icono i{
+  font-size:12px;
+  }
+ 
+}
+
